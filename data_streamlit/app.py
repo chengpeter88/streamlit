@@ -1,10 +1,9 @@
 import streamlit as st
 import pandas as pd 
 import numpy as np  
-import matplotlib.pyplot as plt 
 import seaborn as sns  
 import streamlit.components.v1 as components    
-
+import matplotlib.pyplot as plt
 
 # Load EDA
 from eda import run_eda_app
